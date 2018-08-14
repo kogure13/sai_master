@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;    
+    background-color: #676767;    
+    height: 60%;
+}
+
+.ais-header-strip {    
+    top: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #73c3c8;
+    display: block;
+}
+.ais-header-banner {
+    background-color: #fff;
+    padding: 10px;
+    width: auto;
+    border-bottom: 3px solid #73abd8;
+}
+.ais-header-logo img{
+    height: 64px;
+    margin-bottom: 0px;
+}
+.ais-main {
+    margin-top: 0;
+    padding: 5px;    
+}
+
+.error {
+    color: #df382c;
+    size: 12pt;
+}
+.flexigrid div.fbutton .add {
+    background: url('../images/add.png') no-repeat center left;
+}
+.flexigrid div.fbutton .edit {
+    background: url('../images/edit.png') no-repeat center left;
+}
+.flexigrid div.fbutton .delete {
+    background: url('../images/close.png') no-repeat center left;    
+}
+
+.wrapper {
+    background: url('../images/ao.gif') repeat;    
+    background-color: #77bbdd;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    min-height: 100vh;
+    position: relative;
+    display: block;    
+}
+
+#imgupload {
+    max-width: 100%;
+    height: 110px;
+    background-position: center center;
+    border-radius: 1px;
+    background-size: cover;
+}
+
+input[type='file'].hidden_pic {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    font-size: 50px;
+    cursor: pointer;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: Alpha(Opacity=0);
+}
+
+.hiddenFileInputContainter {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;    
+}
+
+footer{
+    margin: 0; padding: 10px;
+    display: block;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #d2e3ec;
+    background-color: #f3f3f3;
+    font-size: 12px;
+}
