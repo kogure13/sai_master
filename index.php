@@ -1,20 +1,11 @@
 <?php
-
 //set session
-session_start('itjen');
+session_start();
 
-require_once 'config/class.php';
+include_once 'config/class.php';
 //call main
 $main = new Main();
-$device = $main->isMobile();
 
+include 'model/main.php';
 
-//cek compatible device
-if ($device) {
-    //is mobile
-    header('location: mobile/index.php');
-    exit;
-} else {
-    //is desktop
-    include 'model/main.php';
-}
+?>

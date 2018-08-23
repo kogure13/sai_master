@@ -4,16 +4,16 @@ http://www.tooplate.com/view/2060-newspaper
 */
 
 body {
-	margin: 0;
-	padding: 0;
-	color: #666;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 13px;
-	line-height: 1.4em; 
-	background-color: #f1f1f1;
-	background-repeat: repeat-x;
-	background-position: top;
-	background-image: url(images/tooplate_body.jpg)
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+    line-height: 1.4em; 
+    background-color: #f1f1f1;
+    background-repeat: repeat-x;
+    background-position: top;
+    background-image: url(images/tooplate_body.jpg)
 }
 
 a, a:link, a:visited { color: #09c2d3; font-weight: normal; text-decoration: none }
@@ -54,53 +54,53 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 .tmo_list li a:hover { color: #52493a }
 
 #tooplate_wrapper {
-	width: 960px;
-	margin: 0 auto;
-	padding: 0 10px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 #tooplate_header {
-	height: 55px;
-	width: 960px;
+    height: 55px;
+    width: 960px;
 }
 
 #tooplate_main {
-	clear: both;
-	width: 960px;
-	padding: 20px 0;
+    clear: both;
+    width: 960px;
+    padding: 20px 0;
 }
 
 #content {
-	width: 620px;
+    width: 620px;
 }
 
 #sidebar {
-	width: 300px;
+    width: 300px;
 }
 
 #tooplate_bottom_wrapper {
-	width: 100%;
-	background: #393939;
+    width: 100%;
+    background: #393939;
 }
 
 #tooplate_bottom {
-	clear: both;
-	width: 960px;
-	margin: 0 auto;
-	padding: 20px 0
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0
 }
 
 #tooplate_footer_wrapper {
-	width: 100%;
-	background: #272b2b;
+    width: 100%;
+    background: #272b2b;
 }
 
 #tooplate_footer {
-	clear: both;
-	width: 960px;
-	margin: 0 auto;
-	padding: 10px;
-	text-align: center
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center
 }
 
 #site_title { float: left }
@@ -108,7 +108,7 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 #site_title h1 a { display: block; width: 180px; height: 10px; padding: 40px 10px 0 0; color: #000; font-size: 14px; text-align: right; background: url(images/logo1.png) no-repeat left center }
 #site_title h1 a:hover { text-decoration: none }
 
-#tooplate_menu { float: right; height: 46px; background: url(images/tooplate_menu.png) no-repeat }
+#tooplate_menu { float: right; height: 46px; }
 
 .newscol h2 { font-size: 14px; color: #09c2d3; font-weight: 700; border-bottom: 1px dotted #ccc }
 .newsbox { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #eee }
@@ -135,8 +135,8 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 #contact_form form .submit_btn { display: block; padding: 5px 12px; text-align: center; text-decoration: none; font-weight: bold;  background-color: #000; border: 1px solid #fff; color: #fff; font-size: 11px; cursor: pointer }	
 
 .post {
-	clear: both;
-	margin-bottom: 60px;
+    clear: both;
+    margin-bottom: 60px;
 }
 .post img { margin-bottom: 10px }
 .post h2.home { color: #ba8c00; font-size: 18px; margin-bottom: 0;  }
@@ -153,18 +153,17 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 .post .meta a, .post .meta strong { color: #7b7b7b; font-weight: 700 }
 
 #comment_section {
-	clear: both;
-	margin-bottom: 60px;
-	width: 538px;
-
+    clear: both;
+    margin-bottom: 60px;
+    width: 538px;
 }
 
 .first_level {
-	margin: 0; padding: 0;
+    margin: 0; padding: 0;
 }
 
 .comments {
-	list-style: none; 
+    list-style: none; 
 }
 
 .comments li { margin-bottom: 10px; list-style:none;  }
@@ -183,36 +182,37 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 
 
 #comment_form {
-	clear: both;
+    clear: both;
 }
 
 #comment_form form {
+    
 }
 
 #comment_form textarea {
-	color: #666;
-	background:#fff none repeat fixed 0 0;
-	border: 1px solid #ccc;
-	display:block;
-	font-size:1.1em;
-	height:150px;
-	margin-top:5px;
-	padding:5px;
-	width: 360px;
+    color: #666;
+    background:#fff none repeat fixed 0 0;
+    border: 1px solid #ccc;
+    display:block;
+    font-size:1.1em;
+    height:150px;
+    margin-top:5px;
+    padding:5px;
+    width: 360px;
 }
 
 #comment_form .form_row {
-	width: 100%;
-	margin-bottom: 15px;
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 #comment_form form .txt_field {
-	color: #666;
-	margin-top: 5px;
-	padding: 3px 0;
-	width: 200px;
-	background:#fff none repeat fixed 0 0;
-	border: 1px solid #ccc;
+    color: #666;
+    margin-top: 5px;
+    padding: 3px 0;
+    width: 200px;
+    background:#fff none repeat fixed 0 0;
+    border: 1px solid #ccc;
 }
 
 .col { float: left; margin: 0 20px 20px 0 }
@@ -251,69 +251,69 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 /*=== Custom Slider Styles ===*/
 /*============================*/
 #slider-wrapper {
-	float: left;
-	max-width: 620px;
-	max-height: 300px;
-	margin-right: 20px;
+    float: left;
+    max-width: 620px;
+    max-height: 300px;
+    margin-right: 20px;
 }
 
 #slider {
-	position:relative;
-	width: 620px;
-	height: 300px;
-	background:url(images/loading.gif) no-repeat 50% 50%;
+    position:relative;
+    width: 620px;
+    height: 300px;
+    background:url(images/loading.gif) no-repeat 50% 50%;
 }
 #slider img {
-	position:absolute;
-	top:0px;
-	left:0px;
-	display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
 }
 #slider a {
-	border:0;
-	display:block;
+    border:0;
+    display:block;
 }
 
 .nivo-controlNav {
-	position:absolute;
-	right: 10px;
-	bottom: -30px;
+    position:absolute;
+    right: 10px;
+    bottom: -30px;
 }
 .nivo-controlNav a {
-	display:block;
-	width:14px;
-	height:18px;
-	background:url(images/bullets.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
-	margin-right:3px;
-	float:left;
+    display:block;
+    width:14px;
+    height:18px;
+    background:url(images/bullets.png) no-repeat;
+    text-indent:-9999px;
+    border:0;
+    margin-right:3px;
+    float:left;
 }
 .nivo-controlNav a.active {
-	background-position:0 -18px;
+    background-position:0 -18px;
 }
 
 .nivo-directionNav a {
-	display:block;
-	width:30px;
-	height:30px;
-	background:url(images/arrows.png) no-repeat;
-	text-indent:-9999px;
-	border:0;
+    display:block;
+    width:30px;
+    height:30px;
+    background:url(images/arrows.png) no-repeat;
+    text-indent:-9999px;
+    border:0;
 }
 a.nivo-nextNav {
-	background-position:-30px 0;
-	right:15px;
+    background-position:-30px 0;
+    right:15px;
 }
 a.nivo-prevNav {
-	left:15px;
+    left:15px;
 }
 
 .nivo-caption {
-	text-shadow:none;
-	font-family: Helvetica, Arial, sans-serif;
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
 }
 .nivo-caption a { 
-	color:#efe9d1;
-	text-decoration:underline;
+    color:#efe9d1;
+    text-decoration:underline;
 }

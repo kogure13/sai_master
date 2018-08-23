@@ -54,7 +54,7 @@ class Main {
             if (file_exists($page_root)) {
                 include_once $page_root;
             } elseif ($_GET['page'] == "login") {
-                header('location: administrator/index.php');
+                header('location: admin/index.php');
                 exit();
             } elseif ($_GET['page'] == "logout") {
                 $db = new dbObj();

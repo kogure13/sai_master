@@ -1,7 +1,6 @@
 <?php
-session_start('audit_user');
-
-require '../config/class.php';
+session_start();
+include_once '../config/class.php';
 $main = new Main();
 
 // if(!isset($_SESSION['audit_user'])){
